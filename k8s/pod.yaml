@@ -12,7 +12,7 @@ spec:
 
   - name: todo-app
 
-    image: trainwithshubham/django-todo:latest
+    image:  faizandocker29/todoapp:v1
 
     ports:
 
