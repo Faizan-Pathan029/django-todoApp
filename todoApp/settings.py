@@ -126,4 +126,10 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'staticfiles'),
-)
+i)
+
+# settings.py
+
+# Use BigAutoField for auto-incrementing primary key
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
